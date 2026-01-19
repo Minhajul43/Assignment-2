@@ -106,10 +106,20 @@ body{
 
   /* host section design */
   .host-container{
-    background: #533C72;
+    background: #37284b;
     /* border: 1px solid white; */
     padding: 4px;
     border-radius: 8px;
+  }
+
+  /* design footer section  */
+  .foot-container{
+    background:url("assets/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+
   }
 
   
