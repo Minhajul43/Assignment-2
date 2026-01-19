@@ -25,3 +25,21 @@ body{
   .nav-btn:hover{
     background:linear-gradient(90deg,#9100F8 0%,#FB09B4 51%,#F7E93F 100%);
   }
+  /* design banner section */
+  .banner-container{
+    background: url("assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 760px;
+    width: 100%;
+  }
+  .message{
+    color: #00FF88;
+    border: 1px solid #00FF88;
+    padding:4px;
+    border-radius:10000px;
+    cursor:pointer;
+
+  }
+
+  
