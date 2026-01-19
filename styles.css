@@ -50,4 +50,41 @@ body{
     color: #00FF88;
   }
 
+  /* design techwave section */
+  .tech-container{
+    background:#230E3D;
+  }
+  .tech-cards{
+     margin: 40px 200px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,200px);
+  }
+  .card{
+    /* border: 1px solid #FFFFFF; */
+    padding: 16px;
+    border-radius: 20px;
+    background:#351165;
+  }
+
+  .tech-cards .card img{
+    height: 30px;
+    width: 30px;
+  }
+
+  .tech-cards .first{
+    grid-row: span 2;
+  }
+  .tech-cards .second{
+    grid-column: span 2;
+  }
+  .tech-cards .third{
+    grid-column: span 2;
+  }
+
+  .tech-cards .fourth{
+    grid-column: span 2;
+  }
+
   
