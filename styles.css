@@ -43,7 +43,7 @@ body{
   }
 
   /* design podcast section */
-  .podcast-container{
+  .podcast-container,.episode-container, .host-container{
     margin: 40px 200px;
   }
   .podcast-detail h3{
@@ -85,6 +85,31 @@ body{
 
   .tech-cards .fourth{
     grid-column: span 2;
+  }
+
+  /* episodes design  */
+
+  .episodes{
+    margin-top: 40px;
+    gap: 16px;
+  }
+  .epi-card{
+    background:#250D44;
+    /* border: 1px solid white; */
+    border-radius: 8px;
+
+  }
+
+  .epi-card .font-sm{
+    color:#00FF88;
+  }
+
+  /* host section design */
+  .host-container{
+    background: #533C72;
+    /* border: 1px solid white; */
+    padding: 4px;
+    border-radius: 8px;
   }
 
   
