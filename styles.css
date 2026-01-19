@@ -42,4 +42,12 @@ body{
 
   }
 
+  /* design podcast section */
+  .podcast-container{
+    margin: 40px 200px;
+  }
+  .podcast-detail h3{
+    color: #00FF88;
+  }
+
   
