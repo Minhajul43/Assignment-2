@@ -23,13 +23,18 @@
       <div class="nav-btn">
         <button class="flex items-center gap-2 font-sm">Subscribe <img src="assets/ArrowRight.png" alt=""></button>
       </div>
+      <img class="ms:visibile md:hidden " src="assets/hamburger-menu.png" alt="">
     </div>
 
     <section>
       <div class="banner-container flex items-center  justify-center flex-col gap-14">
-        <div class="flex items-center">
+        <div class="relative inline-block">
           <img src="assets/circle.png" alt="">
-      </div>
+        
+          <span class="absolute -top-2 -right-0 bg-emerald-300 text-black 
+            text-5xs font-bold px-8 py-4 rounded-full ">NEW</span>
+        </div>
+
       <div class="banner-title">
         <h1 class="text-5xl font-bold flex justify-center items-center">TechWave</h1>
         <div class="flex justify-center items-center mt-4">
@@ -110,7 +115,7 @@
 
   <section>
     <div class="episode-container">
-      <h3 class="text-5xl font-bold flex justify-center items-center mt-20">Featured Episodes</h3>
+      <h3 class="text-4xl font-bold flex justify-center items-center mt-20">Featured Episodes</h3>
       <div class="episodes flex justify-center items-center">
         <div class="epi-card">
           <iframe width="300" height="200" src="https://www.youtube.com/embed/L3N3wiKpVVk?si=8aeSwMVZSZxQzYyA"
